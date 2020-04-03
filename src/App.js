@@ -23,10 +23,10 @@ function App() {
             <Link to="/" className="navbar-item">
               All Notes
             </Link>
+            <Link to="/newnote" className="navbar-item">
+              New Note
+            </Link>
           </div>
-          <Link to="/newnote" className="navbar-item">
-            New Note
-          </Link>
         </nav>
         <Route exact path="/" component={AllNotes} />
         <Route path="/newnote" component={NewNote} />

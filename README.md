@@ -1,5 +1,7 @@
 # note App
 
+# refrerence : https://blog.bitsrc.io/how-to-build-a-note-taking-app-with-graphql-and-react-part-2-of-2-b1f4f40361a
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

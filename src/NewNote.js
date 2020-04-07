@@ -25,7 +25,7 @@ const NOTES_QUERY = gql`
     }
 `
 
-const NewNote = () => {
+const NewNote = withRouter(({history}) => {
     const [title, setTitle] = useState("");
     const [content, setContent] = useState("");
 
@@ -57,7 +57,7 @@ const NewNote = () => {
                             date: Date.now()
                         }
                     });
-                    //history.push("/");
+                    history.push("/");
                 }}>
                     <div className="field">
                         <label className="label">Note Title</label>
@@ -82,5 +82,5 @@ const NewNote = () => {
             </div> 
         </div>
     )
-}
+});
 export default NewNote;
